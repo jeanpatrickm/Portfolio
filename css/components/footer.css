@@ -1,0 +1,33 @@
+footer {
+  background-color: var(--backgroundcolor);
+}
+
+footer .footer__content {
+  text-align: center;
+  padding: 6rem 2rem 1rem;
+  max-width: 47rem;
+}
+
+footer .footer__content .footer__contact span {
+  display: block;
+  font-weight: 500;
+}
+
+footer .footer__content ul li {
+  display: inline-block;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+footer .footer__content ul li:hover{
+  transform: scale(1.05);
+}
+
+
+footer .footer__content ul a {
+  display: inline-block;
+  padding: 1rem;
+}
+
+footer .footer__content .footer__copyright {
+  font-size: 1.4rem;
+}
