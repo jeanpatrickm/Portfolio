@@ -23,7 +23,7 @@
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-.about .about__left ul li:hover{
+.about .about__left ul li:hover {
   transform: scale(1.05);
 }
 
